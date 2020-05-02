@@ -1,0 +1,22 @@
+{
+    "name": "kolmeya/laravel-load-data",
+    "description": "package to send CSV files directly to mysql using LOAD DATA",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Junior Santos",
+            "email": "juhnior@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kolmeya\\LoadData\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.2",
+        "illuminate/database": "^6.0|^7.0",
+        "illuminate/support": "^6.0|^7.0"
+    }
+}
